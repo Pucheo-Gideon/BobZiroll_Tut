@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;1,200&family=Kanit&family=Montserrat&display=swap');
+
+body{
+    
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: red solid 2px; */
+    box-shadow:  -0px 3px 10px #ccc;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
+}
+
+#title{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+/* .inline-block>li{
+    display: inline;
+    margin-inline-start: 5px;
+    margin-inline-end: 10px;
+    list-style-type: none;
+    border: red solid 2px;
+    
+} */
+
+.image{
+    width: 60px;
+}
+
+.inline_block>li{
+    list-style: none;
+    display: inline-flex;
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
+      /* border: red solid 2px; */
+}
+
+.reasons>ol{
+
+font-family: 'Montserrat', sans-serif; 
+margin-top: 30px;  
+text-align: justify;
+padding-left: 20px;
+padding-right: 20px
+}
+
+.footer{
+    background-color: #18E6EA;
+    padding: 20px;
+    text-align: center;
+    height: 20px;
+    margin-top: 30px
+}
+

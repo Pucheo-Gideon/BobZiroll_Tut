@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    background: #ccc;
+    box-shadow: 1px, 2px 1px #d3d2d2;
+    color: black;
+    display: flex;
+}
+
+nav.dark{
+    background:  rgb(37, 36, 36);
+    color: #ccc;
+}
+
+.toggle-wrapper{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+nav>p{
+    margin-right: auto;
+}
+
+.toggle-slider-left-right{
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+    background: rgb(37, 36, 36);
+    display: flex;
+    justify-content: flex-start;
+    padding-inline: 2px;
+
+}
+
+nav.dark .toggle-slider-left-right{
+    background: white;
+    justify-content: flex-end;
+}
+
+.toggle-circle{
+    width:20px;
+    height: 20px;
+    border-radius: 50px;
+    background: white;
+    cursor: pointer;
+}
+
+nav.dark .toggle-circle{
+    width:20px;
+    height: 20px;
+    border-radius: 50px;
+    background: rgb(37, 36, 36);
+    cursor: pointer;
+}
+
+nav.dark .toggle-slider{
+    background:  rgb(37, 36, 36);
+}
+
+
+main{
+    width: 500px;
+    background: #ccc;
+    color: black;
+    box-shadow: 1px, 2px 1px #d3d2d2;
+    padding: 10px 20px;
+    margin: 100px auto;
+}
+ul>li{
+    list-style:decimal;
+    margin-top: 10px;
+}
+main.dark{
+    background:  rgb(37, 36, 36);
+    color: white;
+}

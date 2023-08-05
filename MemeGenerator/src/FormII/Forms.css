@@ -1,0 +1,30 @@
+/* form{
+    display: flex;
+    flex-direction: column;
+} */
+
+label{
+    display: inline;
+}
+
+input, select{
+    display: block;
+    width: 300px;
+}
+
+#isBaths{
+    display:flex;
+    /* justify-content:space-evenly; */
+    width: 400px;
+}
+
+#pickColor{
+   display: flex;
+   gap: 10px
+}
+
+
+#pickColor>input{
+    width: 20px;
+    height: 20px;
+}

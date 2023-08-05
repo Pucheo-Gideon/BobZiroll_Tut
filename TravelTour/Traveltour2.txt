@@ -1,0 +1,35 @@
+const travelJournalEntries = [
+  {
+    id: 1,
+    title: "Hiking in Patagonia",
+    description: "Patagonia is a region located at the southern end of South America, shared by Argentina and Chile. It's known for its stunning landscapes and incredible hiking trails.",
+    imageUrl: "https://cdn.pixabay.com/photo/2016/11/18/17/46/hiking-1836512_960_720.jpg",
+    date: "2022-01-15",
+    timezone: "America/Argentina/Ushuaia",
+    location: {
+      name: "Patagonia",
+      country: "Argentina",
+      coordinates: {
+        latitude: -49.352,
+        longitude: -72.029
+      }
+    }
+  },
+  {
+    id: 2,
+    title: "Exploring Machu Picchu",
+    description: "Machu Picchu is a 15th-century Inca citadel located in the Cusco Region of Peru. It's one of the most iconic and visited archaeological sites in the world.",
+    imageUrl: "https://cdn.pixabay.com/photo/2016/06/28/07/10/machu-picchu-1488816_960_720.jpg",
+    date: "2022-05-10",
+    timezone: "America/Lima",
+    location: {
+      name: "Machu Picchu",
+      country: "Peru",
+      coordinates: {
+        latitude: -13.1631,
+        longitude: -72.545
+      }
+    }
+  },
+  // Add more entries here
+];

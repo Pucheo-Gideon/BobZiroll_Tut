@@ -1,0 +1,33 @@
+const travelDestinations = [
+  {
+    id: 1,
+    title: "Santorini, Greece",
+    description: "Santorini is one of the most beautiful and famous Greek islands, known for its stunning sunsets, blue-domed churches, and whitewashed buildings.",
+    imageUrl: "https://cdn.pixabay.com/photo/2016/10/22/20/34/santorini-1761735_960_720.jpg",
+    price: 500,
+    timezone: "Europe/Athens",
+    location: {
+      city: "Santorini",
+      country: "Greece",
+      coordinates: {
+        latitude: 36.3932,
+        longitude: 25.4615
+      }
+    },
+    reviews: [
+      {
+        id: 1,
+        author: "John Doe",
+        comment: "I had an amazing time in Santorini! The views were breathtaking and the locals were very friendly.",
+        rating: 4.5
+      },
+      {
+        id: 2,
+        author: "Jane Smith",
+        comment: "Santorini was a dream come true. I highly recommend visiting during the off-season to avoid the crowds.",
+        rating: 5
+      }
+    ]
+  },
+  // Add more destinations here
+];
